@@ -12,6 +12,8 @@ S3.listObjects(params, (err, data) => {
     for (let i = 0; i < bucketFolder.length; i++) {
         if(bucketFolder[i].Size > 0) {
             console.log(bucketFolder[i].Key);
+        } else {
+            console.log(bucketFolder[i].Key);
         }
     }
 });
