@@ -16,6 +16,10 @@ async function getBucketList(bucketName) {
     })
 }
 
+async function createDir() {
+    
+}
+
 // async function main() {
 //     const lambdaTmpPath = '/tmp';
 //     const bucketName = 's3documentfolder';
